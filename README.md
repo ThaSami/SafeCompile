@@ -8,7 +8,7 @@ https://docs.docker.com/v17.09/engine/installation/
 ## usage:
 ```
 $ chmod +x safecompile.sh
-$ docker-compose -f Dockerfile.yml up
+$ docker-compose -f Dockerfile.yml up -d
 $ ./safecompile.sh <cpp or py file>
 ```
   
