@@ -1,3 +1,4 @@
 From mysql:5.7
-COPY ./initialize.sql /data/application/
+COPY ./initialize.sql /data/application/ 
+#why is this ? why not just mount it inside docker-compose as volume ? because i used podman (the volume won't be seen from inside the container..) and this isn't the only bad practice i have done here.
 
