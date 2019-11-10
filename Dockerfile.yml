@@ -1,0 +1,18 @@
+version: '3.3'
+services:
+
+  DB:
+    build:
+      context: .
+      dockerfile: sqlFile
+    image: sql:custom
+    container_name: sql_server
+    environment:
+      MYSQL_DATABASE: 'db'
+      MYSQL_ROOT_PASSWORD: password
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    command: --init-file /data/application/initialize.sql
+
