@@ -5,6 +5,8 @@ A small script that provide ISOLATION to compile a given code.
 make sure you have Docker and docker-compose installed , 
 https://docs.docker.com/v17.09/engine/installation/
 
+Lanauage supported : Python, Cpp, Java, C
+
 ## usage:
 ```
 $ chmod +x safecompile.sh
