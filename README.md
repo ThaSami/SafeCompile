@@ -8,7 +8,7 @@ https://docs.docker.com/v17.09/engine/installation/
 ## usage:
 ```
 $ chmod +x safecompile.sh
-$ docker-compose -f Dockerfile.yml up -d
+$ docker-compose -f Dockerfile.yml up -d #you may have to wait here until SQL is up and ready for connection before running the script
 $ ./safecompile.sh <cpp or py file>
 ```
   
