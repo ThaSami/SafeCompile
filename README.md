@@ -7,6 +7,8 @@ https://docs.docker.com/v17.09/engine/installation/
 
 Lanauage supported : Python, Cpp, Java, C
 
+stdin programmes are not yet supported. 
+
 ## usage:
 ```
 $ chmod +x safecompile.sh
