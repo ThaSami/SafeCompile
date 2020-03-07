@@ -1,6 +1,6 @@
 # SafeCompile
 
-A small script that provide ISOLATION to compile a given code. 
+A small script that provide ISOLATION to compile and Run a given code. 
 
 make sure you have Docker and docker-compose installed , 
 https://docs.docker.com/v17.09/engine/installation/
